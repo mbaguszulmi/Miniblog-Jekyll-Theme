@@ -1,5 +1,5 @@
 # Miniblog Jekyll Theme
-WARNING: This theme is still under cunstroction. For safety reason, please dont use this theme until this theme released officially.
+WARNING: This theme is still under cunstruction. For safety reason, please don't use this theme until this theme is released officially.
 
 
 ## Installation

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "minicons";
+    src: url("./minicons.eot?6d8a5d49083ddf5c3721826433f84e61?#iefix") format("embedded-opentype"),
+url("./minicons.woff2?6d8a5d49083ddf5c3721826433f84e61") format("woff2"),
+url("./minicons.woff?6d8a5d49083ddf5c3721826433f84e61") format("woff"),
+url("./minicons.ttf?6d8a5d49083ddf5c3721826433f84e61") format("truetype"),
+url("./minicons.svg?6d8a5d49083ddf5c3721826433f84e61#minicons") format("svg");
+}
+
+i[class^="mi-"], i[class*=" mi-"] {
+    vertical-align: middle;
+}
+
+i[class^="mi-"]:before, i[class*=" mi-"]:before {
+    font-family: minicons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mi-calendar-f:before {
+    content: "\f101";
+}
+.mi-calendar:before {
+    content: "\f102";
+}
+.mi-contact-f:before {
+    content: "\f103";
+}
+.mi-contact:before {
+    content: "\f104";
+}
+.mi-facebook-f:before {
+    content: "\f105";
+}
+.mi-facebook:before {
+    content: "\f106";
+}
+.mi-github-f:before {
+    content: "\f107";
+}
+.mi-github:before {
+    content: "\f108";
+}
+.mi-google-plus-f:before {
+    content: "\f109";
+}
+.mi-google-plus:before {
+    content: "\f10a";
+}
+.mi-home-f:before {
+    content: "\f10b";
+}
+.mi-home:before {
+    content: "\f10c";
+}
+.mi-info-f:before {
+    content: "\f10d";
+}
+.mi-info:before {
+    content: "\f10e";
+}
+.mi-instagram-f:before {
+    content: "\f10f";
+}
+.mi-instagram:before {
+    content: "\f110";
+}
+.mi-label-f:before {
+    content: "\f111";
+}
+.mi-labels-f:before {
+    content: "\f112";
+}
+.mi-labels:before {
+    content: "\f113";
+}
+.mi-label:before {
+    content: "\f114";
+}
+.mi-lock-f:before {
+    content: "\f115";
+}
+.mi-lock:before {
+    content: "\f116";
+}
+.mi-person-f:before {
+    content: "\f117";
+}
+.mi-person:before {
+    content: "\f118";
+}
+.mi-sitemap-f:before {
+    content: "\f119";
+}
+.mi-sitemap:before {
+    content: "\f11a";
+}
+.mi-tel-f:before {
+    content: "\f11b";
+}
+.mi-tel:before {
+    content: "\f11c";
+}
+.mi-template:before {
+    content: "\f11d";
+}
+.mi-twitter-f:before {
+    content: "\f11e";
+}
+.mi-twitter:before {
+    content: "\f11f";
+}
+.mi-youtube-f:before {
+    content: "\f120";
+}
+.mi-youtube:before {
+    content: "\f121";
+}

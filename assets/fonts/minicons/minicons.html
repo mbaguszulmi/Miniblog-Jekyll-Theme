@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>minicons</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .preview .inner i {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+
+        @font-face {
+    font-family: "minicons";
+    src: url("./minicons.eot?a557a12db25dc29088367894802a0133?#iefix") format("embedded-opentype"),
+url("./minicons.woff2?a557a12db25dc29088367894802a0133") format("woff2"),
+url("./minicons.woff?a557a12db25dc29088367894802a0133") format("woff"),
+url("./minicons.ttf?a557a12db25dc29088367894802a0133") format("truetype"),
+url("./minicons.svg?a557a12db25dc29088367894802a0133#minicons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="mi-"]:before, i[class*=" mi-"]:before {
+    font-family: minicons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mi-calendar-f:before {
+    content: "\f101";
+}
+.mi-calendar:before {
+    content: "\f102";
+}
+.mi-contact-f:before {
+    content: "\f103";
+}
+.mi-contact:before {
+    content: "\f104";
+}
+.mi-facebook-f:before {
+    content: "\f105";
+}
+.mi-facebook:before {
+    content: "\f106";
+}
+.mi-github-f:before {
+    content: "\f107";
+}
+.mi-github:before {
+    content: "\f108";
+}
+.mi-google-plus-f:before {
+    content: "\f109";
+}
+.mi-google-plus:before {
+    content: "\f10a";
+}
+.mi-home-f:before {
+    content: "\f10b";
+}
+.mi-home:before {
+    content: "\f10c";
+}
+.mi-info-f:before {
+    content: "\f10d";
+}
+.mi-info:before {
+    content: "\f10e";
+}
+.mi-instagram-f:before {
+    content: "\f10f";
+}
+.mi-instagram:before {
+    content: "\f110";
+}
+.mi-label-f:before {
+    content: "\f111";
+}
+.mi-labels-f:before {
+    content: "\f112";
+}
+.mi-labels:before {
+    content: "\f113";
+}
+.mi-label:before {
+    content: "\f114";
+}
+.mi-lock-f:before {
+    content: "\f115";
+}
+.mi-lock:before {
+    content: "\f116";
+}
+.mi-person-f:before {
+    content: "\f117";
+}
+.mi-person:before {
+    content: "\f118";
+}
+.mi-sitemap-f:before {
+    content: "\f119";
+}
+.mi-sitemap:before {
+    content: "\f11a";
+}
+.mi-tel-f:before {
+    content: "\f11b";
+}
+.mi-tel:before {
+    content: "\f11c";
+}
+.mi-template:before {
+    content: "\f11d";
+}
+.mi-twitter-f:before {
+    content: "\f11e";
+}
+.mi-twitter:before {
+    content: "\f11f";
+}
+.mi-youtube-f:before {
+    content: "\f120";
+}
+.mi-youtube:before {
+    content: "\f121";
+}
+
+
+    </style>
+</head>
+<body>
+
+    <h1>minicons</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-calendar-f"></i>
+            </span>
+            <br>
+            <span class='label'>calendar-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-calendar"></i>
+            </span>
+            <br>
+            <span class='label'>calendar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-contact-f"></i>
+            </span>
+            <br>
+            <span class='label'>contact-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-contact"></i>
+            </span>
+            <br>
+            <span class='label'>contact</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-facebook-f"></i>
+            </span>
+            <br>
+            <span class='label'>facebook-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-facebook"></i>
+            </span>
+            <br>
+            <span class='label'>facebook</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-github-f"></i>
+            </span>
+            <br>
+            <span class='label'>github-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-github"></i>
+            </span>
+            <br>
+            <span class='label'>github</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-google-plus-f"></i>
+            </span>
+            <br>
+            <span class='label'>google-plus-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-google-plus"></i>
+            </span>
+            <br>
+            <span class='label'>google-plus</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-home-f"></i>
+            </span>
+            <br>
+            <span class='label'>home-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-home"></i>
+            </span>
+            <br>
+            <span class='label'>home</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-info-f"></i>
+            </span>
+            <br>
+            <span class='label'>info-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-info"></i>
+            </span>
+            <br>
+            <span class='label'>info</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-instagram-f"></i>
+            </span>
+            <br>
+            <span class='label'>instagram-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-instagram"></i>
+            </span>
+            <br>
+            <span class='label'>instagram</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-label-f"></i>
+            </span>
+            <br>
+            <span class='label'>label-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-labels-f"></i>
+            </span>
+            <br>
+            <span class='label'>labels-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-labels"></i>
+            </span>
+            <br>
+            <span class='label'>labels</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-label"></i>
+            </span>
+            <br>
+            <span class='label'>label</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-lock-f"></i>
+            </span>
+            <br>
+            <span class='label'>lock-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-lock"></i>
+            </span>
+            <br>
+            <span class='label'>lock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-person-f"></i>
+            </span>
+            <br>
+            <span class='label'>person-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-person"></i>
+            </span>
+            <br>
+            <span class='label'>person</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-sitemap-f"></i>
+            </span>
+            <br>
+            <span class='label'>sitemap-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-sitemap"></i>
+            </span>
+            <br>
+            <span class='label'>sitemap</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-tel-f"></i>
+            </span>
+            <br>
+            <span class='label'>tel-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-tel"></i>
+            </span>
+            <br>
+            <span class='label'>tel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-template"></i>
+            </span>
+            <br>
+            <span class='label'>template</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-twitter-f"></i>
+            </span>
+            <br>
+            <span class='label'>twitter-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-twitter"></i>
+            </span>
+            <br>
+            <span class='label'>twitter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-youtube-f"></i>
+            </span>
+            <br>
+            <span class='label'>youtube-f</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="mi-youtube"></i>
+            </span>
+            <br>
+            <span class='label'>youtube</span>
+        </div>
+
+
+</body>
+</html>

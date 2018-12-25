@@ -1,6 +1,4 @@
 # miniblog
-<<<<<<< HEAD
-
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
 To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
@@ -50,7 +48,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `miniblog
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-=======
-Simple, light, and fast Jekyll Theme
->>>>>>> 0bbedf35a8faae35b0c8d77dcb4b25ddb0ac1a10
